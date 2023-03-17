@@ -4,6 +4,8 @@
 En la actualidad es un poco difíl para aquellas adolecentes que son fanaticas de las culturas coreanas, coincidir o hablar del tema, compartir imagenes, musicas o recomendar sobre lo que ella conoce o sabe ya que no todos tienen el mismo gusto. 
 ### Usuario
 Es una sitio web dirigida a adolecentes de todo el mundo, donde podrán compartir fotos, videos, recomendar Kdramas, musicas, entre otros.
+### Historias de Usuario 
+
 ### Descripción
 Nuesto sitio web tiene la finalidad de que puedas compartir imagenes, textos, musicas, entre otros
 con toda libertdad, como también podra interactuar entre ellos y navegar en un solo sitio web donde podran encontrar todo sus gustos y conocer un poco mas sobre la cultura Coreana.
