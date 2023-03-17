@@ -1,15 +1,27 @@
-const loggedInLinks = document.querySelectorAll(".logged-in")
-const loggedDutLinks = document.querySelectorAll(".logged-out")
-const loggedInCard = document.querySelectorAll(".card")
-
+const loggedOutLinks = document.querySelectorAll(".logged-out");
+const loggedInLinks = document.querySelectorAll(".logged-in");
+const loggedInputs = document.querySelectorAll("#plantilla");
+const posicionado = document.querySelector("#position")
+const iniciado = document.querySelector("#frase")
+const equis = document.querySelector("#titu")
+const undiv = document.querySelector("#te")
 export const loginCheck = (user) => {
-    if(user){
-        loggedInLinks.forEach(link=>link.style.display="block")
-        loggedDutLinks.forEach(link=>link.style.display="none")
-        loggedInCard.forEach(card=>card.style.display="block")
-    }else{
-        loggedInLinks.forEach(link=>link.style.display="none")    
-        loggedDutLinks.forEach(link=>link.style.display="block")
-        loggedInCard.forEach(card=>card.style.display="none")
-    }
-}
+  if (user) {
+    loggedInLinks.forEach((link) => (link.style.display = "block"));
+    loggedOutLinks.forEach((link) => (link.style.display = "none"));
+    loggedInputs.forEach((div) => (div.style.display = "block")); //para mostrarlo al iniciar sesion la caja de ingresar publicaciones
+    posicionado.style.display = "none"
+    iniciado.style.display = "none"
+    equis.style.display = "none"
+    undiv.style.display = "none"
+  } else {
+    loggedInLinks.forEach((link) => (link.style.display = "none"));
+    loggedOutLinks.forEach((link) => (link.style.display = "block"));
+    //console.log(loggedInputs);
+    loggedInputs.forEach((div) => (div.style.display = "none")); //para ocultar al cerrar sesion la caja de ingresar publicaciones
+    posicionado.style.display = "block"
+    iniciado.style.display = "block"
+    equis.style.display = "block"
+    undiv.style.display = "block"
+  }
+};
