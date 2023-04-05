@@ -17,20 +17,9 @@ Como también  le permiten al usuario compartir un post con texto,imagen, musica
 ### Desarrolllo
 Lo primero en  que trabajamos fueron las de Crear cuenta e Iniciar sesión con esa cuenta, utilizando el servicio de firebase para programar la autenticación del usuario. Y luego utilizamos los métodos de inicio de sesión con Google y Facebook para  el inicio de sesión con estas herramientas.
 Inicialmente éste era el prototipo de baja fidelidad para las vistas de registro e inicio de sesión.
-![Prototipo de baja](./src/img/prototipos-de-baja.png)
 
-Luego trabajamos en los prototipos de alta fidelidad de las diferentes visats:
 
-### Mobile
-![Prototipos de alta en Mobile](./src/img/prototipos-de-alta-mobile.png)
 
-### Desktop
-![Prototipo de alta Desktop](./src/img/prot-1.png)
-
-![Prototipo de alta Desktop](./src/img/prot-2.png)
-
-![Prototipo de alta Desktop](./src/img/prot-3.png)
-###
 
 
 
